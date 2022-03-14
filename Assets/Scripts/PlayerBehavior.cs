@@ -38,8 +38,8 @@ public class PlayerBehavior : MonoBehaviour {
 
 	CircleCollider2D cc;
 
-	List<GameObject> interestObjects;
-	List<GameObject> dangerObjects;
+	public List<GameObject> interestObjects;
+	public List<GameObject> dangerObjects;
 
 	public struct Sensor
     {

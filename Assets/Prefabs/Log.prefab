@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 9221224370835604443}
   - component: {fileID: 9221224370835604442}
   - component: {fileID: 9221224370835604440}
+  - component: {fileID: 8062133757285958848}
   m_Layer: 0
   m_Name: Log
   m_TagString: Untagged
@@ -25,7 +26,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9221224370835604447}
-  m_LocalRotation: {x: 0.061628442, y: 0.80838674, z: -0.07525445, w: 0.5805598}
+  m_LocalRotation: {x: 0.061627973, y: 0.80838567, z: -0.07525268, w: 0.5805615}
   m_LocalPosition: {x: -0.001, y: -0.007, z: 1.621}
   m_LocalScale: {x: 3, y: 3, z: 3}
   m_Children:
@@ -55,6 +56,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   height: 0.08
   period: 0.9
+--- !u!136 &8062133757285958848
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9221224370835604447}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.55
+  m_Height: 1.24
+  m_Direction: 2
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &9221224370765930437
 PrefabInstance:
   m_ObjectHideFlags: 0
